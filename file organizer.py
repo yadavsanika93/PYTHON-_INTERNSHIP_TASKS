@@ -64,10 +64,10 @@ def organize_directory():
 
     # 5. Print a formatted execution summary showing total files relocated
     print("\n" + "="*35)
-    print("        EXECUTION SUMMARY        ")
+    print("        EXECUTION SUMMARY         ")
     print("="*35)
     print(f"Total files successfully relocated: {files_moved_count}")
     print("="*35)
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     organize_directory()
